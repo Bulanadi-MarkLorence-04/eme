@@ -8,6 +8,13 @@ header {
   background-color: transparent;
   box-shadow: none;
 }
+/* Remove background & border from sidebar */
+#sidebar {
+  background: none ;
+  border: none ;
+  box-shadow: none ;
+  color: white; /* make text visible on dark bg */
+}
 /* 🎨 Your custom background */
 body {
   background: url("https://github.com/Bulanadi-MarkLorence-04/7OOP-Porfolio/blob/main/Images/eto_na_talaga%5B1%5D.gif?raw=true") no-repeat center center fixed;
