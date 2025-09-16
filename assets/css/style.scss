@@ -2,8 +2,11 @@
 ---
 
 @import "{{ site.theme }}";  // keep this line to load the Architect theme
--page-header {
-  display:none;
+
+header {
+  background: none;
+  background-color: transparent;
+  box-shadow: none;
 }
 /* 🎨 Your custom background */
 body {
